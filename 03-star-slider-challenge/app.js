@@ -54,7 +54,7 @@ function changeStars() {
 
 //inside id stars add star icon span- add another span element
 //create a new element that is the new star icon
-// after creating we can append it to the element with the id 'stars'
+// after creating we can append it to the element with the id 'stars' .
 
 
 
