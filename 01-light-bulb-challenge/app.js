@@ -14,3 +14,22 @@ Expected Outcomes:
 */
 
 // Place your plan and solution below!
+//save turn on button into variable after DOM manipulation 
+//save image to variable so it can be manipulated
+//Create and add event listener function that changes the image to turn lightbulb on
+//Test to see if works
+const turnBulbOn = document.getElementById("turnBulbOn")
+const image = document.getElementById("lightbulb")
+function handleTurnBulbOn(){
+  image.src = "./light-bulb-on.png";
+}
+turnBulbOn.addEventListener("click", handleTurnBulbOn)
+
+//save turn off button into variable after DOM manipulation 
+//Create and add event listener function that changes the image to turn lightbulb off
+//Test to see if works
+const turnBulboff = document.getElementById("turnBulbOff")
+function handleTurnBulbOff(){
+  image.src ="./light-bulb-off.png"
+}
+turnBulboff.addEventListener("click", handleTurnBulbOff)

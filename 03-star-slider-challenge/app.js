@@ -13,3 +13,5 @@ Expected Outcomes:
 */
 
 // Place your plan and solution below!
+//get star elements and create variable 
+//get slider value and add to variable
